@@ -8,5 +8,8 @@
             "Doctrine\\GuidesExtension\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "symfony/dependency-injection": "^7.1",
+        "phpdocumentor/guides": "^1.4"
+    }
 }
