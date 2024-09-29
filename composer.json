@@ -11,5 +11,8 @@
     "require": {
         "symfony/dependency-injection": "^7.1",
         "phpdocumentor/guides": "^1.4"
+    },
+    "require-dev": {
+        "phpdocumentor/guides-cli": "^1.4"
     }
 }
