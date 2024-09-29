@@ -1,0 +1,12 @@
+{
+    "name": "doctrine/guides-extension",
+    "description": "Provides extra features necessary to build Doctrine docs",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Doctrine\\GuidesExtension\\": "src/"
+        }
+    },
+    "require": {}
+}
