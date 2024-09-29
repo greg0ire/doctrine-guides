@@ -8,6 +8,8 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Extension\PrependExtensionInterface;
 
+use function dirname;
+
 final class DoctrineExtension extends Extension implements PrependExtensionInterface
 {
     /** @param mixed[] $configs */
@@ -25,5 +27,4 @@ final class DoctrineExtension extends Extension implements PrependExtensionInter
             ],
         ]);
     }
-
 }
